@@ -1,0 +1,134 @@
+<html> 
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<title>Conservation in Plainsboro</title>
+		<link rel="icon" href="./Favicon.png">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src = "texts.js"></script>
+		<script src = "script.js"></script>
+	</head> 
+	<body onload = "load()">
+		<div class = "topnav">
+			<a style = "color: #66cf38ff" href = "#">Home</a>
+			<a style = "color: #ffaa80" href = "#orange">Water Treatment</a>
+			<a style = "color: #ff99ff" href = "#purple">Waste Management</a>
+			<a style = "color: #99ddff" href = "#blue">Housing, Farming</a>
+			<a style = "color: #ff8080" href = "#red">Nature Preserves</a>
+			<a style = "color: #f3fc86" href = "./questionnaire.html" target = "_blank">Questionnaire</a>
+			<a href = "https://docs.google.com/document/d/1J1A_YdXxE4BITxfj7PFob0uJ1U7KlbkAMda7GmqqZ_Q/edit?usp=sharing" target = "_blank">Works Cited</a>
+			<img class = "navbar_img" src = "./PlainsboroLogo.png"/>
+		</div>
+		<div class = "nav_shadow"></div>
+		<div id = "backgroundsite">
+			<div id = "main">
+				<div class = "pointer" style = "margin-top:165"></div>
+				<div class = "main_text">
+					<span class = "header"><b>CONSERVATION IN THE SUBURBS<br>OF PLAINSBORO, NEW JERSEY</b></span>
+					<br><br>
+					<h2>How do conservation and environmentalism work in a suburban<br> community like Plainsboro?</h2>
+					<br><br>
+					<div class = "explore"><a href = "#area">Explore</a></div>
+					<br><br>
+					<div class = "cards" id = "area">
+					<div class = "card1 card" style = "margin-left:0px">
+							<span class = "card_header">Interactive Map</span><br><br>
+							<span class = "card_body">
+								The best way to visualize the region of interest is through an interactive map
+							</span>
+						</div>
+						<div class = "card">
+							<span class = "card_header">Sections</span><br><br>
+							<span class = "card_body">
+								The four main sections of conservation and environmentalism can be explored
+							</span>
+						</div>
+						<div class = "card">
+							<span class = "card_header">Information</span><br><br>
+							<span class = "card_body">
+								The information presented was heavily researched through primary and secondary sources
+							</span>
+						</div>
+						<div class = "card">
+							<span class = "card_header">Goal</span><br><br>
+							<span class = "card_body">
+								Making it easier to understand conservation and environmentalism
+							</span>
+						</div>
+					</div>
+					<div class = "map_area">
+						<div class = "mapinfo img" id = "map"></div>
+						<div class = "mapinfo mapinformation"> 
+							<span style = "font-size: 40">Map Info</span>
+							<button id = "changeMapArea" onclick = "swapMapInfo()">Next</button><br><br>
+							<span style = "font-size:20; color: #ffaa80" id = "mapTextArea"></span>
+						</div>
+					</div>
+				</div>
+				<div class = "pointer" style = "margin-top:115"></div>
+				<div class = "area">
+					<span class = "header"><b>WATER TREATMENT</span><br>
+					<h2>How is water conserved and kept clean in Plainsboro?</h2>
+					<div class = "map_area">
+						<div id = "water_treatment_img" class = "img"></div>
+						<div id = "water_treatment_text" class = "mapinformation">
+							<span style = "font-size: 40" id = "WTHeader">Overview</span>
+							<button id = "changeWTArea" onclick = "swapWTInfo()">Next</button><br><br>
+							<span style = "font-size:16" id = "WTTextArea"></span>
+						</div>
+					</div>
+					<div class = "caption" id = "WTCap"></div>
+				</div>
+				<div class = "pointer" style = "margin-top:100"></div>
+				<div class = "area" style = "margin-top:0px">
+					<span class = "header"><b>WASTE MANAGEMENT</span><br>
+					<h2>How is waste disposed of or recycled in Plainsboro?</h2>
+					<div class = "map_area">
+						<div id = "waste_management_img" class = "img"></div>
+						<div id = "water_treatment_text" class = "mapinformation">
+							<span style = "font-size: 40" id = "WMHeader">Overview</span>
+							<button id = "changeWMArea" onclick = "swapWMInfo()">Next</button><br><br>
+							<span style = "font-size:16" id = "WMTextArea"></span>
+						</div>
+					</div>
+					<div class = "caption" id = "WMCap"></div>
+				</div>
+				<div class = "pointer" style = "margin-top:100"></div>
+				<div class = "area" style = "margin-top:0px">
+					<span class = "header"><b>HOUSING AND FARMING</span><br>
+					<h2>How do housing developments and agriculture affect Plainsboro's environment?</h2>
+					<div class = "map_area">
+						<div id = "housing_farming_img" class = "img"></div>
+						<div id = "water_treatment_text" class = "mapinformation">
+							<span style = "font-size: 40" id = "HFHeader">Overview</span>
+							<button id = "changeWTArea" onclick = "swapHFInfo()">Next</button><br><br>
+							<span style = "font-size:16" id = "HFTextArea"></span>
+						</div>
+					</div>
+					<div class = "caption" id = "HFCap"></div>
+				</div>
+				<div class = "pointer" style = "margin-top:100"></div>
+				<div class = "area" style = "margin-top:0px">
+					<span class = "header"><b>NATURE PRESERVES</span><br>
+					<h2>How do nature preserves help Plainsboro's environment?</h2>
+					<div class = "map_area">
+						<div id = "nature_preserve_img" class = "img"></div>
+						<div id = "water_treatment_text" class = "mapinformation">
+							<span style = "font-size: 40" id = "NPHeader">Overview</span>
+							<button id = "changeWTArea" onclick = "swapNPInfo()">Next</button><br><br>
+							<span style = "font-size:16" id = "NPTextArea"></span>
+						</div>
+					</div>
+					<div class = "caption" id = "NPCap">Sample Text</div>
+				</div>
+			</div>
+			</div>
+			<div class = "background_triangle" id = "black"></div>
+			<div class = "background_triangle" id = "orange"></div>
+			<div class = "background_triangle" id = "purple"></div>
+			<div class = "background_triangle" id = "blue"></div>
+			<div class = "background_triangle" id = "red"></div>
+			<div id = "footer_shadow"></div>
+	        <div id = "footer"></div>
+		</div>
+	</body>
+</html>

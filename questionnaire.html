@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>Questionnaire</title>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+		<link rel="icon" href="./Favicon.png">
+		<script src = "texts.js"></script>
+		<script src = "questionnaire_script.js"></script>
+		<link rel="stylesheet" type="text/css" href="questionnaire_style.css">
+	</head>
+	<body onload = "load()">
+		<div class = "center">
+			<div id = "innerText">
+				<h3 style = "color:#66cf38ff">Question <span id = "qNum">1</span> of 8</h3>
+				<hr>
+				<span style = "font-size:25px" id = "question"></span>
+				<div id = "o1" class = "option unselected" style = "margin-top:0px" onclick = "select(1)">
+					<p class = "optText" id = "text1"></p>
+				</div>
+				<div id = "o2" class = "option unselected" onclick = "select(2)">
+					<p class = "optText" id = "text2"></p>
+				</div>
+				<div id = "o3" class = "option unselected" onclick = "select(3)">
+					<p class = "optText" id = "text3"></p>
+				</div>
+				<div id = "o4" class = "option unselected" onclick = "select(4)">
+					<p class = "optText" id = "text4"></p>
+				</div>
+				<div>
+					<button onclick = "check()" id = "button">Check</button>
+					<div id = "ansArea">
+						<span id = "ansMsg"></span>
+					</div>
+				</div>
+				<hr style = "margin-top:25px">
+				<div class = "circleArea">
+					<div class = "circle" id = "c1"></div>
+					<div class = "circle" id = "c2"></div>
+					<div class = "circle" id = "c3"></div>
+					<div class = "circle" id = "c4"></div>
+					<div class = "circle" id = "c5"></div>
+					<div class = "circle" id = "c6"></div>
+					<div class = "circle" id = "c7"></div>
+					<div class = "circle" id = "c8"></div>
+				</div>
+			</div>
+			<div id = "endText">
+				<hr>
+				<span id = "message"></span><br>You got <span id = "numRight"></span> out of 8 right.</span><br>
+				<button onclick = "self.close()" style = "margin-top:50px">Close Window</button>
+				<hr>
+			</div>
+		</div>
+	</body>
+</html>
