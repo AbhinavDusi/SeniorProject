@@ -102,7 +102,7 @@ var NPInfo = [
 	a modern, industrialized society.<br><br>Thus, is it is important for everyone to learn about environmentalism, and the Plainsboro\
 	Preserve can promote more activities that can get people of all ages involved."
 ];
-var NPCaption = ["A Description Of The Carbon Cycle", "Deer Are Common Wildlife In Plainsboro", "Children At Summer Camp At The\
+var NPCaption = ["A Description Of The Carbon Cycle", "Deer Are Common Wildlife In Plainsboro", "Children At Summer Camp At The \
 Plainsboro Preserve"]; 
 var NPImg = ["./NPImages/CarbonCycle.jpg", "./NPImages/Wildlife.png", "./NPImages/Activities.png"]; 
 
