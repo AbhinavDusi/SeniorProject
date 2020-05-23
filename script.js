@@ -7,6 +7,7 @@ function load() {
 	document.getElementById("HFTextArea").innerHTML = HFInfo[0]; 
 	document.getElementById("HFCap").innerHTML = HFCaption[0]; 
 	document.getElementById("NPTextArea").innerHTML = NPInfo[0];
+	document.getElementById("NPCap").innerHTML = NPCaption[0]; 
 }
 function swapWTInfo() {
 	swapText(WTHeaderTexts, ++ currWT, "WTHeader");
