@@ -5,7 +5,7 @@ var mapInfoTexts = [
 	At the same time, a lot of things can negatively affect the quality of the water, like pollutants and fertilizer. \
 	Plainsboro has multiple lakes and streams, as can be seen on the map.", 
 	"Waste management refers to how responsibly waste is recycled or disposed of, from industrial waste to roadside litter.\
-	 In Plainsboro, there is a recycling center, shown on the map", 
+	 In Plainsboro, there is a recycling center, shown on the map, as well as many roads that need proper attention.", 
 	"Housing developments and farming must be done in a responsible manner, especially in a suburb like Plainsboro, which has\
 	 a mix of both, which can be seen on the map.",
 	"Nature preserves provide an excellent way for a community to learn about its natural environment and a habitat for many \
