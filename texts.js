@@ -6,7 +6,7 @@ var mapInfoTexts = [
 	Plainsboro has multiple lakes and streams, as can be seen on the map.", 
 	"Waste management refers to how responsibly waste is recycled or disposed of, from industrial waste to roadside litter.\
 	 In Plainsboro, there is a recycling center, shown on the map, as well as many roads that need proper attention.", 
-	"Housing developments and farming must be done in a responsible manner, especially in a suburb like Plainsboro, which has\
+	"Housing developments and farming must be done in a responsible manner, since they greatly alter the landscape and environment, especially in a suburb like Plainsboro, which has\
 	 a mix of both, which can be seen on the map.",
 	"Nature preserves provide an excellent way for a community to learn about its natural environment and a habitat for many \
 	species. The Plainsboro Preserve serves this purpose, with a large forested area and lake visible on the map."
