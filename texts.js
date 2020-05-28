@@ -124,7 +124,7 @@ var explanations = [
 	easier compared to plastic. Plastic bags can also cause many hazzards to wild animals that get stuck\
 	on them.",
 	"Suburban sprawl, as its name implies, refers to single family homes spread across a large\
-	region, with shopping centers are away from houses. Dependancy on automobiles is a\
+	region, with shopping centers that are away from houses. Dependancy on automobiles is a\
 	trait. People should walk or use public transportation when possible.",
 	"Nature preserves first and foremost protect the flora and fauna of a region. People benefit almost as\
 	much when they can enjoy themselves in nature, building a connection with the natural landscape.\
